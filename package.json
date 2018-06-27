@@ -1,0 +1,19 @@
+{
+  "name": "target_project",
+  "version": "1.0.0",
+  "description": "The Target mount point project is designed to run on a node server and give the files listed in a directory passed as an argument to it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pritam Sen",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.30.0",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
